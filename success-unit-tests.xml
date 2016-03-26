@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.0.0 (Windows 8 0.0.0)" package="" timestamp="2016-03-26T11:58:23" id="0" hostname="ci" tests="180" errors="0" failures="0" time="1.983">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 (development) Safari/538.1"/>
+  </properties>
+  <testcase name="should call advanced productivity url with correct query string parameters" time="0.131" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AdvanedProductivityService"/>
+  <testcase name="should call advanced productivity url with correct query string parameters when getAdvancedProductivityUrl is called" time="0.011" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AdvanedProductivityService"/>
+  <testcase name="should call advanced productivity url with correct query string parameters when getEncryptedData is called " time="0.01" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AdvanedProductivityService"/>
+  <testcase name="should get encrypted string when getEncryptedStringFromAdvancedProductivityAPI is called" time="0.01" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AdvanedProductivityService"/>
+  <testcase name="should get correct encrypted string when getEncryptedData is called" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AdvanedProductivityService"/>
+  <testcase name="should call get advanced productivity url with correct encrypted string" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AdvanedProductivityService"/>
+  <testcase name="should call getAsset with assetIdentifier from queryString" time="0.017" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should call postCustomState updated state" time="0.01" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should have assigned data to fields after getting asset details" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should change hours utilization aggregate type" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should hide spinner when done loading" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response do not have devices" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response have devices but no service plans" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response have advanced productivity service plans" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response have multiple service plans including advanced productivity" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response have no devices - process subscriptions method" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response have devices but no service plans - process subscriptions method" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response have advanced productivity service plans - process subscriptions method" time="0.013" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should get subscriptions correctly when response have multiple service plans including advanced productivity - process subscriptions method" time="0.025" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetDetails"/>
+  <testcase name="should retrieve data from unfiltered url when no filter criteria specified" time="0.024" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AssetDetailsService"/>
+  <testcase name="should post custom state data" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AssetDetailsService"/>
+  <testcase name="should make a GET call to ASSET_NOTES_URL" time="0.012" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AssetNotesService"/>
+  <testcase name="should return empty array of call to ASSET_NOTES_URL fails" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AssetNotesService"/>
+  <testcase name="should make a POST call to ASSET_NOTES_URL" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: AssetNotesService"/>
+  <testcase name="should get notes when value of assetUid changes" time="0.011" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: NotesWidgetController"/>
+  <testcase name="should assign notes if call to the API service passes" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: NotesWidgetController"/>
+  <testcase name="should call postAssetNotes when a new note has to be added to an asset" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: NotesWidgetController"/>
+  <testcase name="should get notes and set note text to empty after adding note" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: NotesWidgetController"/>
+  <testcase name="should show a modal when showNote is invoked" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: NotesWidgetController"/>
+  <testcase name="should send value of note to the modal" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: NotesWidgetController"/>
+  <testcase name="should call timezone url with correct query string parameters when getTimeZone method is called" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: TimeZoneService"/>
+  <testcase name="should get timezone object as expected" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: TimeZoneService"/>
+  <testcase name="should call timezone url with correct query string parameters when getTimeZone method is called" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: TimeZoneService"/>
+  <testcase name="should get timezone bias as expected when bias is positive" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: TimeZoneService"/>
+  <testcase name="should get timezone bias as expected when bias is negative" time="0.091" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: TimeZoneService"/>
+  <testcase name="should load averages for allAssets when the controller is initially loaded" time="0.011" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetUtilization"/>
+  <testcase name="should load totals for allAssets when totals is selected" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetUtilization"/>
+  <testcase name="should load averages for allAssets when averages is selected" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetUtilization"/>
+  <testcase name="should set criteria" time="0.001" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Model: AssetSortState"/>
+  <testcase name="should set criteria reversed" time="0" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Model: AssetSortState"/>
+  <testcase name="should clear sort criteria" time="0" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Model: AssetSortState"/>
+  <testcase name="should parse for basic search" time="0.001" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Model: AssetSortState"/>
+  <testcase name="should parse for reversed search" time="0" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Model: AssetSortState"/>
+  <testcase name="should create querystring for basic sort" time="0" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Model: AssetSortState"/>
+  <testcase name="should create querystring for reversed sort" time="0" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Model: AssetSortState"/>
+  <testcase name="should retrieve data from unfiltered url when no filter criteria specified" time="0.01" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data from filtered url when only server-side filter criteria specified" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data from filtered url when only server-side location filter criteria specified" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data from filtered url when only group filter criteria specified" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data from filtered url when a combination of filtercriteria including productfamilies specified" time="0.024" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data from filtered url when assetstatus filter criteria specified" time="0.017" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data from filtered url when a combination of filtercriteria including assetstatus specified" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data from filtered url when a combination of filtercriteria including assetstatus and product family specified" time="0.047" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data filtered based on fuel level" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should retrieve data filtered based on fuel level when criteria is set to 100" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should query for both search types when searchtype is set to all" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should query for assetID searchtype is set to AssetId" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should throw an error when searchtype is set to an invalid value" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="should return the api url when requested" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetSummaryService"/>
+  <testcase name="DataDisplayRules filter should be registered" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace the value with empty string if status is Awaiting First Report" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should not replace the value with empty string if status is not Awaiting First Report" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an empty value with - if status is Manual" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an undefined value with - if status is Manual" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace a null value with - if status is Manual" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an Invalid Date value with - if status is Manual" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace empty value with - if status is not Awaiting First Report" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an undefined value with - if status is not Awaiting First Report" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace a null value with - if status is not Awaiting First Report" time="0.011" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an Invalid Date value with - if status is not Awaiting First Report" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an empty value with 0 if status is Manual and returnZero param is true" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an undefined value with 0 if status is Manual and returnZero param is true" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace a null value with 0 if status is Manual and returnZero param is true" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace empty value with 0 if status is not Awaiting First Report and returnZero param is true" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace an undefined value with 0 if status is not Awaiting First Report and returnZero param is true" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace a null value with 0 if status is not Awaiting First Report and returnZero param is true" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace a value with suffix if status is Manual and suffix param is set" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should replace a value with suffix if status is not Awaiting First Report or Manual and suffix param is set" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Filter : DataDisplayRules Angular Filter"/>
+  <testcase name="should dispatch resize event on construction" time="0.02" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should get widgets on construction" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should save widgets when dashboard changes" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should dispatch resize event when dashboard edits are cancelled" time="0.003" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should set title template to any newly added widget" time="0.003" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should deactivate global filter when a widget is updated" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should activate global filter when global filter is applied" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should save widgets when widgetConfig is changed" time="0.22" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should save preferences just once for quick successive changes to widgets" time="0.211" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: DashboardController"/>
+  <testcase name="should get dashboard preferences upon construction" time="0.015" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: DashboardPreferenceService"/>
+  <testcase name="should return default preferences when dashboardpreference is not yet set" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: DashboardPreferenceService"/>
+  <testcase name="should return default preferences when widgetsPreference is not set" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: DashboardPreferenceService"/>
+  <testcase name="should return default preferences when zones are not set" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: DashboardPreferenceService"/>
+  <testcase name="should return the available preference when found" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: DashboardPreferenceService"/>
+  <testcase name="should return dashboardPreference if it is already loaded" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: DashboardPreferenceService"/>
+  <testcase name="should save value of dashboardPreference" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: DashboardPreferenceService"/>
+  <testcase name="should retrieve data from AssetStatusService when loading controller" time="0.012" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetStatusWidgetController"/>
+  <testcase name="should retrieve data from AssetStatusService when the filter is changed" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetStatusWidgetController"/>
+  <testcase name="should assign value of filter when filterChanged method is called" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetStatusWidgetController"/>
+  <testcase name="should raise widgetConfigChanged event when filter is updated" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetStatusWidgetController"/>
+  <testcase name="should raise widgetConfigChanged event when filter is updated and config is null" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: AssetStatusWidgetController"/>
+  <testcase name="should initialize column settings with default columns if preference dosn't have column settings set" time="0.001" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Class: ColumnSettings"/>
+  <testcase name="should add the column to list when toggle is called with a new column" time="0" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Class: ColumnSettings"/>
+  <testcase name="should remove the column from list when toggle is called with an existing column" time="0.001" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Class: ColumnSettings"/>
+  <testcase name="should return false if column is not present in selected columns" time="0" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Class: ColumnSettings"/>
+  <testcase name="should return true if column is present in selected columns" time="0.001" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Class: ColumnSettings"/>
+  <testcase name="should set column settings on load" time="0.025" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should show columnSettings dialog" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should assign the columnSettings returned by dialog to the controller" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should update smart table if the sort column is removed from column settings dialog" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should retrieve data from service when loading" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should allow assets to be selected if put in selection mode" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should save selection in AssetSelectionService when new notification is called" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should not redirect to create notification if no assets are selected" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should redirect to create notification when showNewNotification is called" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should not allow assets to be selected if not in selection mode" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should set allFilteredAssets, allVisibleAssets, and select all items when selectAllFilteredAssets called " time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should clear allFilteredAssets and set all assets to allVisibleAssetsSelected when toggleAssetSelections called  " time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should clear allFilteredAssets and allVisibleAssets when deselecting an asset  " time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should clear allFilteredAssets and allVisibleAssets when clearAllAssetsSelectedFlags called " time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should clear allFilteredAssets and set allVisibleAssets when selectAllVisibleAssets called " time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should clear allFilteredAssets and allVisibleAssets when cancelSelectionMode called " time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should reset asset selections upon cancelling selection mode" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should allow all assets to be selected " time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should allow all assets to be deselected " time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should allow some assets to be selected " time="0.016" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should set pagingState with default values" time="0.021" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should assign page size if it is present in the sessionStorage URL is same" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should not assign page size if it is present in the sessionStorage and URL is different" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should get assets based on the page state saved in sessionStorage" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should assign default sort criteria when sort is not present in queryString" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should assign assign sort parameters if they are present in the queryString" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should set reverse to true when its value is desc in the queryString" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should not set page number when url saved in sessionStorage is same as current url" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should not have sort expression set if it is empty" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should set sort property on queryString to just column name" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should set column name and direction to queryString when both are set" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should save current url to sessionStorage" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should load the next page on calling loadNextPage" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should get data based on current page state" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should not load next page if all assets are already loaded" time="0.01" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should load next page if not all assets are loaded" time="0.011" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should select items in the new page if all filtered assets are selected" time="0.01" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should select items in the new page if all visible assets are selected" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should select items in the new page if all filtered assets are selected" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should show loading spinner when updating data" time="0.018" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should set fleetSummaryApiUrl when getFleetItems is called" time="0.027" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: Fleet"/>
+  <testcase name="should get default column settings when preferences are not available" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetPreferenceService"/>
+  <testcase name="should column settings when preferences are set" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetPreferenceService"/>
+  <testcase name="should open modal dialog with right value of column settings" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetPreferenceService"/>
+  <testcase name="should assign columnSettings to controller of the modal" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetPreferenceService"/>
+  <testcase name="should set column settings" time="0.006" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetPreferenceService"/>
+  <testcase name="should set default column settings when preference is null" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetPreferenceService"/>
+  <testcase name="should set default column settings when value of preference is not set" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: FleetPreferenceService"/>
+  <testcase name="should retrieve data from AssetFilterService when loading the controller" time="0.011" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: FuelRemainingWidget"/>
+  <testcase name="should retrieve alternate data from FuelService when the filter is changed" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: FuelRemainingWidget"/>
+  <testcase name="should assign value of filter when filterChanged method is called" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: FuelRemainingWidget"/>
+  <testcase name="should raise widgetConfigChanged event when filter is updated" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: FuelRemainingWidget"/>
+  <testcase name="should raise widgetConfigChanged event when filter is updated and config is null" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: FuelRemainingWidget"/>
+  <testcase name="should retrieve no search suggestion list if no GlobalSearchAPIResponse" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve suggestion list when search type is All" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve suggestion list with AssetID only if Search type is by AssetID" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve suggestion list with Serial Number only if Search type is by SerialNumber" time="0.015" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve suggestion list with both AssetID and Serial Number if Search type is by All" time="0.015" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve total asset count" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve displayed asset count" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve search criteria" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should call the  getSuggestionsFromSearchResults method with search parameters" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should call assetdetails route when selectSearchResult method is called" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should call assetdetails route when submitSearch method is called with one asset" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: GlobalSearch"/>
+  <testcase name="should retrieve data from AssetFilterService when loading the controller" time="0.01" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: IdlingLevelWidget"/>
+  <testcase name="should define be defined with week data for idling by default" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: IdlingLevelWidget"/>
+  <testcase name="should be toggled for day month and today's header" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: IdlingLevelWidget"/>
+  <testcase name="should be toggled for day month and CurrentWeek header" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: IdlingLevelWidget"/>
+  <testcase name="should be toggled for day month and CurrentMonth header" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: IdlingLevelWidget"/>
+  <testcase name="should assign value of filter when filterChanged method is called" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: IdlingLevelWidget"/>
+  <testcase name="should return only map data for the categoryItems" time="0.009" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Service: MapService"/>
+  <testcase name="should get correct assets when the controller is initially loaded" time="0.008" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: MapWidget"/>
+  <testcase name="should update map values when changing selected group" time="0.005" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: MapWidget"/>
+  <testcase name="should assign value of filter when filterChanged method is called" time="0.057" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: MapWidget"/>
+  <testcase name="should raise widgetConfigChanged event when filter is updated" time="0.007" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: MapWidget"/>
+  <testcase name="should raise widgetConfigChanged event when filter is updated and config is null" time="0.004" classname="PhantomJS_2_0_0_(Windows_8_0_0_0).Controller: MapWidget"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
